@@ -1,6 +1,6 @@
 Feature: Application Login
 
-
+@smoke
 Scenario: Home Page should be displayed
 
 Given Open the application
