@@ -1,6 +1,6 @@
 Feature: Application Login
 
-@Standard @smoke
+@Standard
 Scenario Outline: Home Page should be displayed
 Given Open the application
 When User is on login page
