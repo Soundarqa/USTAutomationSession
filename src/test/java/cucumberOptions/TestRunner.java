@@ -11,6 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = "stepDefinition",
 		monochrome = true,
 		plugin = {"pretty","html:target/exe_reports/report.html"},
+		tags="@smoke",
 		publish = true
 		)
 public class TestRunner {
